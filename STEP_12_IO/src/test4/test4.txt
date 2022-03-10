@@ -1,0 +1,27 @@
+[문제4] 아래와 같이 파일 입출력을 완성 하시오.
+
+파일명 : User.java
+public string toString(){
+	return "이름 : " + name + " 나이 : " + age + " 신장 : " + tell + "\n";
+}
+파일명 : UserOutputTest.java
+
+
+[조건]
+1.데이터가 계속 추가되도록 완성
+2.객체 직렬화를 이용.
+
+[출력]
+입력을 종료하려면 Ctrl + z를 입력하시오
+Enter your name : 개나리
+Enter your age : 22
+Enter your tell : 164.5
+계속 입력하려면 Enter키를 누르시오
+
+user.txt파일이 생성 되었습니다.
+
+파일명 : UserInputTest.java
+[조건]
+예외처리를 통한 종료
+[출력]
+이름 : 개나리 나이 : 22 신장 : 164.5
